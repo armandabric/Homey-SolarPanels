@@ -6,11 +6,15 @@
     "node": "16"
   },
   "scripts": {
+    "dev": "homey app run",
+    "homey": "homey",
     "homey-validate": "homey app validate --level verified",
     "homey-build": "homey app build",
     "build": "tsc"
   },
   "dependencies": {
+    "cookie": "^0.6.0",
+    "jssha": "^3.3.1",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
